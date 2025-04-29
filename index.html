@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechHub</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container header-container">
+        <div class="logo">TechHub</div>
+        <button class="mobile-menu-btn" id="menuBtn">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" class="active-page">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#lecturers">Lecturers</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="carousel-container">
+          <div class="carousel-slider">
+            <div
+              class="carousel-slide"
+              style="
+                background-image: url('/assets/YABATECH-AND-STUDENTS-ON-CAMPUS.png');
+              "
+            ></div>
+            <div
+              class="carousel-slide"
+              style="
+                background-image: url('/assets/School_of_environmental_studiesSchool_of_environmental_studies\,_YabaTech.jpg');
+              "
+            ></div>
+            <div
+              class="carousel-slide"
+              style="
+                background-image: url('/assets/School_of_Art\,_Design_and_Printing\,_YabaTech.jpg');
+              "
+            ></div>
+          </div>
+          <div class="overlay"></div>
+          <div class="container hero-content-wrapper">
+            <div class="hero-content">
+              <h1>Welcome to OTM TechHub</h1>
+              <p>
+                We are a dedicated group of professionals passionate about
+                Operations, Technology, and Management. Our team brings together
+                diverse skills and backgrounds to create innovative solutions
+                and achieve excellence in everything we do.
+              </p>
+              <a href="#about" class="btn">Meet Our Team</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="video-section">
+        <div class="container video-container">
+          <h2>Our Group Introduction</h2>
+          <p class="intro-text">
+            Welcome to TechHub Group 1, OTM ND3 students of Yaba College of
+            Technology. We are a vibrant group passionate about mastering
+            Operations, Technology, and Management. Through innovation,
+            collaboration, and creativity, we aim to build a better future in
+            the world of tech and business.
+          </p>
+
+          <div class="video-frame">
+            <video controls width="100%" height="100%">
+              <source src="/assets/tech hub group video.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Us Page -->
+      <section id="about" class="about-section">
+        <div class="container">
+          <h2 class="section-title" data-aos="fade-up">About Our Team</h2>
+
+          <div class="member-grid">
+            <!-- Member 1 -->
+            <div class="member-card" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src="/assets/cia clutch.jpeg" alt="Team Member 1" />
+              </div>
+              <div class="member-info">
+                <h3>OGUAYO UGONNA PATRICIA</h3>
+                <div class="member-details">
+                  <p><strong>Profession:</strong> Registrar</p>
+                  <p><strong>Business:</strong> Cia Clutch</p>
+                  <p>
+                    <strong>Workplace:</strong> Lagos State Residents
+                    Registration Agency
+                  </p>
+                  <p>
+                    <strong>Address:</strong> Plot 1b Obafemi Awolowo Way,
+                    Alausa Ikeja, Lagos
+                  </p>
+                  <p><strong>Phone number:</strong> +234 9023719327</p>
+                </div>
+                <div class="member-quote">
+                  The Lagos State Residents Registration Agency (LASRRA) is
+                  responsible for registering all residents of Lagos State to
+                  create a comprehensive and reliable database. This database
+                  aids the government in effective planning and resource
+                  allocation.
+                </div>
+              </div>
+            </div>
+
+            <!-- Member 2 -->
+            <div class="member-card" data-aos="fade-up" data-aos-delay="200">
+              <div class="member-img">
+                <img src="/assets/jumai pics.jpeg" alt="Team Member 2" />
+              </div>
+              <div class="member-info">
+                <h3>Amanyi Jumai Rosemary</h3>
+                <div class="member-details">
+                  <p><strong>Profession:</strong> Seamstress</p>
+                  <p>
+                    <strong>Workplace:</strong> No,3 momoh stress off tabon
+                    tabon Agege.
+                  </p>
+                  <p><strong>Position:</strong> C.E.O</p>
+                  <p><strong>Business:</strong> Jumex Concept</p>
+                  <p><strong>Phone number:</strong> 08021161611</p>
+                </div>
+                <div class="member-quote">
+                  We’re a fashion brand that focuses on creating stylish,
+                  high-quality clothing, bags, and shoes. Everything we make is
+                  designed to empower individuals to express their unique style
+                  with confidence. I’m passionate about craftsmanship and
+                  attention to detail, and that reflects in our designs. Right
+                  now, we’re expanding our collection and working on making our
+                  products more accessible to a global audience.
+                </div>
+              </div>
+            </div>
+
+            <!-- Member 3 -->
+            <div class="member-card" data-aos="fade-up" data-aos-delay="300">
+              <div class="member-img">
+                <img src="/assets/joy.jpeg" alt="Team Member 3" />
+              </div>
+              <div class="member-info">
+                <h3>ANELE JOY MIRACLE</h3>
+                <div class="member-details">
+                  <p><strong>Profession:</strong> Enterpreneur</p>
+                  <p>
+                    <strong>Workplace:</strong> No 11, Iseyin Str Off
+                    Ilupeju,Palmgroove, Lagos
+                  </p>
+                  <p><strong>Position:</strong> C.E.O</p>
+                  <p><strong>Phone number:</strong> 08185606609</p>
+                  <p><strong>Business:</strong> M'joy Thrift</p>
+                </div>
+                <div class="member-quote">
+                  My Brand is called M'joy Thrift, we are a clothing Brand where
+                  style meets affordability! At M'joy Thrift, we specialize in
+                  providing a wide range of clothing options for both men and
+                  women. From trendy jeans and stylish gowns to professional
+                  office wear, chic pant trousers, fashionable shirts, and comfy
+                  round neck polos, we've got you covered for every occasion.
+                  Our mission is to make you slay in fashion without breaking
+                  the bank
+                </div>
+              </div>
+            </div>
+
+            <!-- Member 4 -->
+            <div class="member-card" data-aos="fade-up" data-aos-delay="400">
+              <div class="member-img">
+                <img src="/assets/amara.jpeg" alt="Team Member 4" />
+              </div>
+              <div class="member-info">
+                <h3>SUNDAY AMARACHI CHISOM</h3>
+                <div class="member-details">
+                  <p><strong>Profession:</strong> Office Secretary</p>
+                  <p>
+                    <strong>Workplace:</strong> No 18, Erubodo Mustpha Fashina
+                    Str, Arepo Ogun State
+                  </p>
+                  <p><strong>Position:</strong> Secretary</p>
+                  <p><strong>Phone number:</strong> 09161850126</p>
+                  <p><strong>Business:</strong> Wisestars School</p>
+                </div>
+                <div class="member-quote">
+                  Wisestars School is a Nursery and Primary School located in
+                  Obafemi Owode, Ogun State with the mission to build an
+                  organization that educates and empowers children who will
+                  transform nations, using proven principles and godly values.
+                </div>
+              </div>
+            </div>
+<!-- member 5 -->
+            <div class="member-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="member-img">
+                    <img src="/assets/sarah.jpeg" alt="Team Member 3">
+                </div>
+                <div class="member-info">
+                    <h3>Onyenye Oghenegare Sofia</h3>
+                    <div class="member-details">
+                        <p><strong>Profession:</strong> Ofice Clark</p>
+                        <p><strong>Workplace:</strong>  8  Johnson Street kirikiri town Lagos </p>
+                        <p><strong>Position:</strong> Office Assistant</p>
+                        <p><strong>Phone number:</strong>  08185606609 </p>
+                        <p><strong>Business:</strong>  Laundry Clark</p>
+                    </div>
+                    <div class="member-quote">
+                        As an office clerk in a laundry shop is responsible for handling customer service, receiving and recording laundry items, issuing receipts, managing schedules, updating customer records, tracking orders, handling payments, and ensuring a clean and organized workspace while maintaining smooth communication between customers and laundry operations.                        </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Personal Interviews Section -->
+<section id="interviews" class="interviews-section">
+  <div class="container">
+    <h2 class="section-title" data-aos="fade-up">Personal Interviews</h2>
+    <p class="section-intro" data-aos="fade-up">Meet our team members and discover why they chose to pursue Operations, Technology, and Management over other programs.</p>
+    
+    <div class="interviews-grid">
+      <!-- Member 1 Interview -->
+      <div class="interview-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="member-name">
+          <h3>OGUAYO UGONNA PATRICIA</h3>
+        </div>
+        <div class="interview-video">
+          <video controls width="100%">
+            <source src="/assets/patricia-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="interview-caption">
+          <p>Discover why Ugonna chose OTM and her journey in the program.</p>
+        </div>
+      </div>
+
+      <!-- Member 2 Interview -->
+      <div class="interview-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="member-name">
+          <h3>Amanyi Jumai Rosemary</h3>
+        </div>
+        <div class="interview-video">
+          <video controls width="100%">
+            <source src="/assets/jumai-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="interview-caption">
+          <p>Jumai shares her passion for OTM and future aspirations.</p>
+        </div>
+      </div>
+
+      <!-- Member 3 Interview -->
+      <div class="interview-card" data-aos="fade-up" data-aos-delay="300">
+        <div class="member-name">
+          <h3>ANELE JOY MIRACLE</h3>
+        </div>
+        <div class="interview-video">
+          <video controls width="100%">
+            <source src="/assets/joy-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="interview-caption">
+          <p>Joy explains what motivated her to choose OTM and how it aligns with her business.</p>
+        </div>
+      </div>
+
+      <!-- Member 4 Interview -->
+      <div class="interview-card" data-aos="fade-up" data-aos-delay="400">
+        <div class="member-name">
+          <h3>SUNDAY AMARACHI CHISOM</h3>
+        </div>
+        <div class="interview-video">
+          <video controls width="100%">
+            <source src="/assets/amarachi-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="interview-caption">
+          <p>Amarachi discusses her OTM journey and professional growth.</p>
+        </div>
+      </div>
+
+      <!-- Member 5 Interview -->
+      <div class="interview-card" data-aos="fade-up" data-aos-delay="500">
+        <div class="member-name">
+          <h3>Onyenye Oghenegare Sofia</h3>
+        </div>
+        <div class="interview-video">
+          <video controls width="100%">
+            <source src="/assets/sofia-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="interview-caption">
+          <p>Sofia shares her experience with OTM and its impact on her career.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <!-- Lecturers Page -->
+      <section id="lecturers" class="lecturers-section">
+        <div class="container">
+          <h2 class="section-title" data-aos="fade-up">
+            Our Esteemed Lecturers
+          </h2>
+          <div class="lecturers-grid">
+            <!-- Lecturer 1 -->
+            <div class="lecturer-card" data-aos="fade-up" data-aos-delay="100">
+              <div class="lecturer-img">
+                <img src="/assets/mr_olomola.jpeg" alt="Mr. Olomola" />
+              </div>
+              <div class="lecturer-info">
+                <h3>Mr. Olomola B.T</h3>
+                <p>
+                  We extend our heartfelt gratitude to Mr. Olomola for his
+                  exceptional guidance and unwavering support throughout our
+                  academic journey. His expertise and dedication have been
+                  instrumental in shaping our understanding of the field.
+                </p>
+              </div>
+            </div>
+
+            <!-- Lecturer 2 -->
+            <div class="lecturer-card" data-aos="fade-up" data-aos-delay="200">
+              <div class="lecturer-img">
+                <img src="/assets/Mr Ige.jpeg" alt="Course Advisor" />
+              </div>
+              <div class="lecturer-info">
+                <h3>Mr. IGE, O. J.</h3>
+                <p>
+                  Our sincere appreciation goes to our respected Mr. IGE, O. J.
+                  for the invaluable insights and mentorship provided throughout
+                  our studies. Your commitment to excellence has inspired us to
+                  push our boundaries and strive for greatness.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery Page -->
+      <section id="gallery" class="gallery-section">
+        <div class="container">
+          <h2 class="section-title" data-aos="fade-up">Our Gallery</h2>
+          <div class="gallery-grid">
+            <div class="gallery-item" data-aos="fade-up" data-aos-delay="100">
+              <img src="/assets/sign-out3.jpeg" alt="Group Photo 1" />
+            </div>
+
+            <div class="gallery-item" data-aos="fade-up" data-aos-delay="150">
+              <img src="/assets/sign-out2.jpeg" alt="Group Photo 2" />
+            </div>
+
+            <div class="gallery-item" data-aos="fade-up" data-aos-delay="200">
+              <img src="/assets/sign-out1.jpeg" alt="Professional Photo 1" />
+            </div>
+
+            <div class="gallery-item" data-aos="fade-up" data-aos-delay="250">
+              <img src="/assets/sign-out4.jpeg" alt="Professional Photo 2" />
+            </div>
+
+            <div class="gallery-item" data-aos="fade-up" data-aos-delay="300">
+              <img src="/assets/sign-out5.jpeg" alt="Event Photo 1" />
+            </div>
+
+            <div class="gallery-item" data-aos="fade-up" data-aos-delay="350">
+              <img src="/assets/sign-out6.jpeg" alt="Event Photo 2" />
+            </div>
+
+            <div class="gallery-item" data-aos="fade-up" data-aos-delay="400">
+              <img src="/assets/joy.jpeg" alt="Team Building Photo" />
+            </div>
+
+            <div class="gallery-item" data-aos="fade-up" data-aos-delay="450">
+              <img src="/assets/jumai pics.jpeg" alt="Working Together" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal for Gallery -->
+        <div class="modal" id="galleryModal">
+          <span class="close-modal">&times;</span>
+          <div class="modal-content">
+            <img id="modalImg" src="" alt="Enlarged Image" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Page -->
+      <section id="contact" class="contact-section">
+        <div class="container">
+          <h2 class="section-title" data-aos="fade-up">Contact Our Team</h2>
+          <div class="contact-grid">
+            <!-- Contact Card 1 -->
+            <div class="contact-card" data-aos="fade-up" data-aos-delay="100">
+              <h3> Oguayo Ugonna Patricia</h3>
+              <div class="contact-info">
+                <p><i class="fas fa-phone"></i> +234 9023719327
+                </p>
+                <p><i class="fas fa-phone"></i> +234 8165402611</p>
+                <p><i class="fas fa-envelope"></i> zitaoguayo@gmail.com </p>
+              </div>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+
+            <!-- Contact Card 2 -->
+            <div class="contact-card" data-aos="fade-up" data-aos-delay="200">
+              <h3>Amanyi Jumai Rosemary </h3>
+              <div class="contact-info">
+                <p><i class="fas fa-phone"></i> 08021161611</p>
+                <p><i class="fas fa-phone"></i> 0705 499 9896</p>
+                <p><i class="fas fa-envelope"></i> rosejumai087@gmail.com 
+                </p>
+              </div>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+
+            <!-- Contact Card 3 -->
+            <div class="contact-card" data-aos="fade-up" data-aos-delay="300">
+              <h3>Anele Joy Miracle </h3>
+              <div class="contact-info">
+                <p><i class="fas fa-phone"></i> 08185606609</p>
+                <p><i class="fas fa-phone"></i>  08111460220</p>
+                <p><i class="fas fa-envelope"></i> Mimianex09@gmail.com</p>
+              </div>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+
+            <!-- Contact Card 4 -->
+            <div class="contact-card" data-aos="fade-up" data-aos-delay="400">
+              <h3>Sunday Amarachi Chisom</h3>
+              <div class="contact-info">
+                <p><i class="fas fa-phone"></i> 09161850126</p>
+                <p><i class="fas fa-phone"></i> 09120834743</p>
+                <p><i class="fas fa-envelope"></i> amarachisom200@gmail.com</p>
+              </div>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+
+            <div class="contact-card" data-aos="fade-up" data-aos-delay="400">
+              <h3>Onyenye Oghenegare Sofia </h3>
+              <div class="contact-info">
+                <p><i class="fas fa-phone"></i> 07088494206</p>
+                <p><i class="fas fa-phone"></i> 07088494206</p>
+                <p><i class="fas fa-envelope"></i> onyenyesofia80@gmail.com </p>
+              </div>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form" data-aos="fade-up" data-aos-delay="500">
+            <h3>Send Us a Message</h3>
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" class="form-control" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" class="form-control" required />
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" class="form-control" required />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" class="form-control" required></textarea>
+              </div>
+              <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-container">
+        <div class="footer-info">
+          <h3>TechHub</h3>
+          <p>
+            A team of dedicated professionals passionate about Operations,
+            Technology, and Management. We strive for excellence and innovation
+            in everything we do.
+          </p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#lecturers">Lecturers</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Follow Us</h4>
+          <ul>
+            <li>
+              <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2025 TechHub. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
