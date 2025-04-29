@@ -89,7 +89,7 @@
         const subject = document.getElementById('subject').value;
         const message = document.getElementById('message').value;
         
-        // You would typically send this data to a server here
+        // I would typically send this data to a server here
         console.log('Form submitted:', { name, email, subject, message });
         
         // Reset form
